@@ -1,0 +1,1078 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable name="zero_m1_kaki_ok" type="BOOL"/>
+    <variable name="zero_m2_kaki_ok" type="BOOL"/>
+    <variable name="zero_m3_kaki_ok" type="BOOL"/>
+    <variable name="zero_m4_kaki_ok" type="BOOL"/>
+    <variable name="zero_m5_kaki_ok" type="BOOL"/>
+    <variable name="zero_m6_kaki_ok" type="BOOL"/>
+    <variable name="zero_m7_kaki_ok" type="BOOL"/>
+    <variable name="zero_m8_kaki_ok" type="BOOL"/>
+    <variable name="position_motor1_1" type="DWORD"/>
+    <variable name="position_motor2_1" type="DWORD"/>
+    <variable name="position_motor3_1" type="DWORD"/>
+    <variable name="position_motor4_1" type="DWORD"/>
+    <variable name="position_motor5_1" type="DWORD"/>
+    <variable name="position_motor6_1" type="DWORD"/>
+    <variable name="position_motor7_1" type="DWORD"/>
+    <variable name="position_motor8_1" type="DWORD"/>
+    <variable name="cw_m1" type="BOOL"/>
+    <variable name="cw_m2" type="BOOL"/>
+    <variable name="cw_m3" type="BOOL"/>
+    <variable name="cw_m4" type="BOOL"/>
+    <variable name="cw_m5" type="BOOL"/>
+    <variable name="cw_m6" type="BOOL"/>
+    <variable name="cw_m7" type="BOOL"/>
+    <variable name="cw_m8" type="BOOL"/>
+    <variable name="ccw_m1" type="BOOL"/>
+    <variable name="ccw_m2" type="BOOL"/>
+    <variable name="ccw_m3" type="BOOL"/>
+    <variable name="ccw_m4" type="BOOL"/>
+    <variable name="ccw_m5" type="BOOL"/>
+    <variable name="ccw_m6" type="BOOL"/>
+    <variable name="ccw_m7" type="BOOL"/>
+    <variable name="ccw_m8" type="BOOL"/>
+    <variable name="data_moto1" type="BYTE"/>
+    <variable name="data_moto2" type="BYTE"/>
+    <variable name="data_moto3" type="BYTE"/>
+    <variable name="data_moto4" type="BYTE"/>
+    <variable name="data_moto5" type="BYTE"/>
+    <variable name="data_moto6" type="BYTE"/>
+    <variable name="data_moto7" type="BYTE"/>
+    <variable name="data_moto8" type="BYTE"/>
+    <variable name="current_M1_pos" type="DWORD"/>
+    <variable name="current_M2_pos" type="DWORD"/>
+    <variable name="current_M3_pos" type="DWORD"/>
+    <variable name="current_M4_pos" type="DWORD"/>
+    <variable name="current_M5_pos" type="DWORD"/>
+    <variable name="current_M6_pos" type="DWORD"/>
+    <variable name="current_M7_pos" type="DWORD"/>
+    <variable name="current_M8_pos" type="DWORD"/>
+    <variable name="motor1_speed" type="UINT"/>
+    <variable name="motor2_speed" type="UINT"/>
+    <variable name="motor3_speed" type="UINT"/>
+    <variable name="motor4_speed" type="UINT"/>
+    <variable name="motor5_speed" type="UINT"/>
+    <variable name="motor6_speed" type="UINT"/>
+    <variable name="motor7_speed" type="UINT"/>
+    <variable name="motor8_speed" type="UINT"/>
+    <variable name="motor1_accel" type="UINT"/>
+    <variable name="motor2_accel" type="UINT"/>
+    <variable name="motor3_accel" type="UINT"/>
+    <variable name="motor4_accel" type="UINT"/>
+    <variable name="motor5_accel" type="UINT"/>
+    <variable name="motor6_accel" type="UINT"/>
+    <variable name="motor7_accel" type="UINT"/>
+    <variable name="motor8_accel" type="UINT"/>
+    <variable name="START_Moto_1" type="BOOL"/>
+    <variable name="START_Moto_2" type="BOOL"/>
+    <variable name="START_Moto_3" type="BOOL"/>
+    <variable name="START_Moto_4" type="BOOL"/>
+    <variable name="START_Moto_5" type="BOOL"/>
+    <variable name="START_Moto_6" type="BOOL"/>
+    <variable name="START_Moto_7" type="BOOL"/>
+    <variable name="START_Moto_8" type="BOOL"/>
+    <variable name="motor1_running" type="BOOL"/>
+    <variable name="motor2_running" type="BOOL"/>
+    <variable name="motor3_running" type="BOOL"/>
+    <variable name="motor4_running" type="BOOL"/>
+    <variable name="motor5_running" type="BOOL"/>
+    <variable name="motor6_running" type="BOOL"/>
+    <variable name="motor7_running" type="BOOL"/>
+    <variable name="motor8_running" type="BOOL"/>
+    <variable name="motor1_position_ok" type="BOOL"/>
+    <variable name="motor2_position_ok" type="BOOL"/>
+    <variable name="motor3_position_ok" type="BOOL"/>
+    <variable name="motor4_position_ok" type="BOOL"/>
+    <variable name="motor5_position_ok" type="BOOL"/>
+    <variable name="motor6_position_ok" type="BOOL"/>
+    <variable name="motor7_position_ok" type="BOOL"/>
+    <variable name="motor8_position_ok" type="BOOL"/>
+    <variable name="lr_0" type="BOOL"/>
+    <variable name="lr_1" type="BOOL"/>
+    <variable name="lr_2" type="BOOL"/>
+    <variable name="lr_3" type="BOOL"/>
+    <variable name="lr_4" type="BOOL"/>
+    <variable name="lr_5" type="BOOL"/>
+    <variable name="lr_6" type="BOOL"/>
+    <variable name="lr_7" type="BOOL"/>
+    <variable name="lr_8" type="BOOL"/>
+    <variable name="lr_9" type="BOOL"/>
+    <variable name="lr_10" type="BOOL"/>
+    <variable name="lr_11" type="BOOL"/>
+    <variable name="lr_12" type="BOOL"/>
+    <variable name="lr_13" type="BOOL"/>
+    <variable name="lr_14" type="BOOL"/>
+    <variable name="lr_15" type="BOOL"/>
+    <variable name="dm_0" type="DWORD"/>
+    <variable name="dm_1" type="DWORD"/>
+    <variable name="dm_2" type="DWORD"/>
+    <variable name="dm_3" type="DWORD"/>
+    <variable name="dm_4" type="DWORD"/>
+    <variable name="dm_5" type="DWORD"/>
+    <variable name="dm_6" type="DWORD"/>
+    <variable name="dm_7" type="DWORD"/>
+    <variable name="dm_8" type="DWORD"/>
+    <variable name="dm_9" type="DWORD"/>
+    <variable name="dm_10" type="DWORD"/>
+    <variable name="dm_11" type="DWORD"/>
+    <variable name="dm_12" type="DWORD"/>
+    <variable name="dm_13" type="DWORD"/>
+    <variable name="dm_14" type="DWORD"/>
+    <variable name="dm_15" type="DWORD"/>
+    <variable name="dm_16" type="DWORD"/>
+    <variable name="dm_17" type="DWORD"/>
+    <variable name="dm_18" type="DWORD"/>
+    <variable name="dm_19" type="DWORD"/>
+  </variables>
+  <sketch>
+    <xhtml:p><![CDATA[
+//////////////////////////////// EEPROM //////////////////////////////////////
+
+#include <EEPROM.h>
+
+
+
+int address_byte = 0;
+
+int address_word = 20;   //Location we want the data 32bit to be put.
+
+//write
+
+static uint8_t mm_8bit[2];
+
+static uint32_t mm_32bit[20];
+
+//read
+
+static uint8_t value_8bit[2];
+
+static uint32_t value_32bit[20];
+
+static uint32_t mm_32bit_old_0,mm_32bit_old_1,mm_32bit_old_2,mm_32bit_old_3,
+
+        mm_32bit_old_4,mm_32bit_old_5,mm_32bit_old_6,mm_32bit_old_7,mm_32bit_old_8,
+
+        mm_32bit_old_9,mm_32bit_old_10,mm_32bit_old_11,mm_32bit_old_12,mm_32bit_old_13,
+
+        mm_32bit_old_14,mm_32bit_old_15,mm_32bit_old_16,mm_32bit_old_17,mm_32bit_old_18,mm_32bit_old_19,mm_32bit_old_20;
+
+
+
+
+
+static uint8_t mm_8bit_old_0,mm_8bit_old_1;
+
+static uint8_t one_pulse0,one_pulse1;
+
+
+
+////////////////////////////////////STEP PULSE////////////////////////////////
+
+#define INBUF_SIZE 64
+
+static uint8_t inBuf[INBUF_SIZE];
+static uint8_t checksum;
+static uint8_t indRX;
+static uint8_t cmdMSP;
+
+static uint8_t data_motor_1 =0x00;
+static uint8_t data_motor_2 =0x00;
+static uint8_t data_motor_3 =0x00;
+static uint8_t data_motor_4 =0x00;
+
+static uint8_t data_motor_5 =0x00;
+
+static uint8_t data_motor_6 =0x00;
+
+static uint8_t data_motor_7 =0x00;
+
+static uint8_t data_motor_8 =0x00;
+static uint8_t data16bit[10];
+static uint8_t data32bit[10];
+static uint8_t mode_motor_1,mode_motor_2,mode_motor_3,mode_motor_4,mode_motor_5,mode_motor_6,mode_motor_7,mode_motor_8;
+
+//request MSP
+
+#define MSP_HEADER = "$M<"
+
+//
+
+#define MSP_COMMAND_1                   1
+#define MSP_COMMAND_2                   2
+#define MSP_COMMAND_3                   3
+#define MSP_COMMAND_4                   4
+#define MSP_COMMAND_5                   5
+#define MSP_COMMAND_6                   6
+#define MSP_COMMAND_7                   7
+#define MSP_COMMAND_8                   8
+
+
+#define MSP_POSITION_M_1                10
+#define MSP_POSITION_M_2                11
+#define MSP_POSITION_M_3                12
+#define MSP_POSITION_M_4                13
+#define MSP_POSITION_M_5                14
+#define MSP_POSITION_M_6                15
+#define MSP_POSITION_M_7                16
+#define MSP_POSITION_M_8                17
+
+
+//
+#define MSP_COMMAND_1_FEEDBACK       50
+#define MSP_COMMAND_2_FEEDBACK       51
+#define MSP_COMMAND_3_FEEDBACK       52
+#define MSP_COMMAND_4_FEEDBACK       53
+#define MSP_COMMAND_5_FEEDBACK       54
+#define MSP_COMMAND_6_FEEDBACK       55
+#define MSP_COMMAND_7_FEEDBACK       56
+#define MSP_COMMAND_8_FEEDBACK       57
+
+
+#define MSP_COMMAND_ALL_SPEED_FEEDBACK 58
+
+#define MSP_COMMAND_ALL_ACCEL_FEEDBACK 59
+//
+
+void evaluateOtherData(uint8_t sr);
+void evaluateCommand(uint8_t c);
+void eeprom();
+
+
+
+
+
+
+
+
+static uint8_t read8() {
+  return inBuf[indRX++] & 0xff;
+}
+
+static uint16_t read16() {
+  uint16_t t = read8();
+  t += (uint16_t)read8() << 8;
+  return t;
+}
+
+static uint32_t read32() {
+  uint32_t t = read16();
+  t += (uint32_t)read16() << 16;
+  return t;
+}
+
+
+
+static void serialize8(uint8_t a) {
+  Serial1.write(a);
+  checksum ^= a;
+}
+
+static void serialize16(int16_t a) {
+  serialize8((a)&0xFF);
+  serialize8((a >> 8) & 0xFF);
+}
+
+static void serialize32(uint32_t a) {
+  serialize8((a)&0xFF);
+  serialize8((a >> 8) & 0xFF);
+  serialize8((a >> 16) & 0xFF);
+  serialize8((a >> 24) & 0xFF);
+}
+
+
+
+static void headSerialResponse(uint8_t err, uint8_t s) {
+  serialize8('$');
+  serialize8('M');
+  serialize8(err ? '!' : '>');
+  checksum = 0;  // start calculating a new checksum
+  serialize8(s);
+  serialize8(cmdMSP);
+}
+
+
+
+static void headSerialReply(uint8_t s) {
+  headSerialResponse(0, s);
+}
+
+static void headSerialError() {
+  headSerialResponse(1, 0);
+}
+
+
+
+static void tailSerialReply() {
+  serialize8(checksum);
+}
+
+
+
+static void serializeNames(PGM_P s) {
+  headSerialReply(strlen_P(s));
+  for (PGM_P c = s; pgm_read_byte(c); c++)
+    serialize8(pgm_read_byte(c));
+  tailSerialReply();
+}
+
+
+
+static void __attribute__((noinline)) s_struct_w(uint8_t *cb, uint8_t siz) {
+  while (siz--) *cb++ = read8();
+}
+
+static void s_struct_partial(uint8_t *cb, uint8_t siz) {
+  while (siz--) serialize8(*cb++);
+}
+
+
+
+static void s_struct(uint8_t *cb, uint8_t siz) {
+  headSerialReply(siz);
+  s_struct_partial(cb, siz);
+  tailSerialReply();
+}
+
+
+
+static void mspAck() {
+  headSerialReply(0);
+  tailSerialReply();
+}
+
+
+
+enum MSP_protocol_bytes {
+  IDLE,
+  HEADER_START,
+  HEADER_M,
+  HEADER_ARROW,
+  HEADER_SIZE,
+  HEADER_CMD
+};
+
+
+
+void serialEvent() {
+
+  uint8_t c, port, state, bytesTXBuff;
+  static uint8_t offset;
+  static uint8_t dataSize;
+  static uint8_t c_state;
+  uint32_t timeMax;  // limit max time in this function in case of GPS
+  timeMax = micros();
+
+  while (Serial1.available() > 0) {
+    c = Serial1.read();
+    state = c_state;
+    if (state == IDLE) {
+      if (c == '$') state = HEADER_START;
+      else { state = IDLE; }  //evaluateOtherData(c);} // evaluate all other incoming serial data
+    } else if (state == HEADER_START) {
+      state = (c == 'M') ? HEADER_M : IDLE;
+    } else if (state == HEADER_M) {
+      state = (c == '>') ? HEADER_ARROW : IDLE;
+    } else if (state == HEADER_ARROW) {
+      if (c > INBUF_SIZE) {  // now we are expecting the payload size
+        state = IDLE;
+        continue;
+      }
+      dataSize = c;
+      checksum = c;
+      offset = 0;
+      indRX = 0;
+      state = HEADER_SIZE;  // the command is to follow
+    } else if (state == HEADER_SIZE) {
+      cmdMSP = c;
+      checksum ^= c;
+      state = HEADER_CMD;
+    } else if (state == HEADER_CMD) {
+      if (offset < dataSize) {
+        checksum ^= c;
+        inBuf[offset++] = c;
+      } else {
+        if (checksum == c)          // compare calculated and transferred checksum
+          evaluateCommand(cmdMSP);  // we got a valid packet, evaluate it
+        state = IDLE;
+      }
+    }
+
+    c_state = state;
+  }     // while
+}
+
+void evaluateCommand(uint8_t c) {
+
+  switch(c) {
+    case MSP_COMMAND_1_FEEDBACK:
+      mode_motor_1 = read8();
+      current_M1_pos = read32();
+      motor1_running =     (mode_motor_1&0x01);
+      motor1_position_ok = (mode_motor_1&0x02)>>1;
+      zero_m1_kaki_ok =    (mode_motor_1&0x04)>>1;
+      break;
+    case MSP_COMMAND_2_FEEDBACK:
+      mode_motor_2 = read8();
+      current_M2_pos = read32();
+      motor2_running =     (mode_motor_2&0x01);
+      motor2_position_ok = (mode_motor_2&0x02)>>1;
+      zero_m2_kaki_ok =    (mode_motor_2&0x04)>>1;
+      break;
+    case MSP_COMMAND_3_FEEDBACK:
+      mode_motor_3 = read8();
+      current_M3_pos = read32();
+      motor3_running =     (mode_motor_3&0x01);
+      motor3_position_ok = (mode_motor_3&0x02)>>1;
+      zero_m3_kaki_ok =    (mode_motor_3&0x04)>>1;
+      break;
+    case MSP_COMMAND_4_FEEDBACK:
+      mode_motor_4 = read8();
+      current_M4_pos = read32();
+      motor4_running =     (mode_motor_4&0x01);
+      motor4_position_ok = (mode_motor_4&0x02)>>1;
+      zero_m4_kaki_ok =    (mode_motor_4&0x04)>>1;
+      break;
+
+    case MSP_COMMAND_5_FEEDBACK:
+
+      mode_motor_5 = read8();
+
+      current_M5_pos = read32();
+
+      motor5_running =     (mode_motor_5&0x01);
+
+      motor5_position_ok = (mode_motor_5&0x02)>>1;
+
+      zero_m5_kaki_ok =    (mode_motor_5&0x04)>>1;
+
+      break;
+
+    case MSP_COMMAND_6_FEEDBACK:
+
+      mode_motor_6 = read8();
+
+      current_M6_pos = read32();
+
+      motor6_running =     (mode_motor_6&0x01);
+
+      motor6_position_ok = (mode_motor_6&0x02)>>1;
+
+      zero_m6_kaki_ok =    (mode_motor_6&0x04)>>1;
+
+      break;
+
+    case MSP_COMMAND_7_FEEDBACK:
+
+      mode_motor_7 = read8();
+
+      current_M7_pos = read32();
+
+      motor7_running =     (mode_motor_7&0x01);
+
+      motor7_position_ok = (mode_motor_7&0x02)>>1;
+
+      zero_m7_kaki_ok =    (mode_motor_7&0x04)>>1;
+
+      break;
+
+    case MSP_COMMAND_8_FEEDBACK:
+
+      mode_motor_8 = read8();
+
+      current_M8_pos = read32();
+
+      motor8_running =     (mode_motor_8&0x01);
+
+      motor8_position_ok = (mode_motor_8&0x02)>>1;
+
+      zero_m8_kaki_ok =    (mode_motor_8&0x04)>>1;
+
+      break;
+
+
+  }
+}
+
+
+
+void sketch_setup()
+{
+Serial1.begin(230400);
+}
+
+void sketch_loop()
+{
+
+//////////////////////////////LOAD DATA EEPROM/////////////////
+
+eeprom();
+
+
+/////////////////////////////MOTOR 1//////////////////
+data_motor_1 = (cw_m1&0x01+ccw_m1&0x02);
+
+cmdMSP = MSP_COMMAND_1;
+headSerialReply(5);
+serialize8(data_moto1);
+serialize16(motor1_speed);
+serialize16(motor1_accel);
+tailSerialReply();
+
+if (START_Moto_1 ==true){
+cmdMSP = MSP_POSITION_M_1;
+headSerialReply(4);
+serialize32(position_motor1_1);
+tailSerialReply();}
+/////////////////////////////MOTOR 2//////////////////
+data_motor_2 = (cw_m2&0x01+ccw_m2&0x02);
+
+cmdMSP = MSP_COMMAND_2;
+headSerialReply(5);
+serialize8(data_moto2);
+serialize16(motor2_speed);
+serialize16(motor2_accel);
+tailSerialReply();
+
+if (START_Moto_2 ==true){
+cmdMSP = MSP_POSITION_M_2;
+headSerialReply(4);
+serialize32(position_motor2_1);
+tailSerialReply();}
+/////////////////////////////MOTOR 3//////////////////
+data_motor_3 = (cw_m3&0x01+ccw_m3&0x02);
+cmdMSP = MSP_COMMAND_3;
+headSerialReply(5);
+serialize8(data_moto3);
+serialize16(motor3_speed);
+serialize16(motor3_accel);
+tailSerialReply();
+
+if (START_Moto_3 ==true){
+cmdMSP = MSP_POSITION_M_3;
+headSerialReply(4);
+serialize32(position_motor3_1);
+tailSerialReply();}
+
+/////////////////////////////MOTOR 4//////////////////
+
+data_motor_4 = (cw_m4&0x01+ccw_m4&0x02);
+cmdMSP = MSP_COMMAND_4;
+headSerialReply(5);
+serialize8(data_moto4);
+serialize16(motor4_speed);
+serialize16(motor4_accel);
+tailSerialReply();
+
+if (START_Moto_4 ==true){
+cmdMSP = MSP_POSITION_M_4;
+headSerialReply(4);
+serialize32(position_motor4_1);
+tailSerialReply();}
+/////////////////////////////MOTOR 5//////////////////
+
+data_motor_5 = (cw_m5&0x01+ccw_m5&0x02);
+
+
+
+cmdMSP = MSP_COMMAND_5;
+
+headSerialReply(5);
+
+serialize8(data_moto5);
+
+serialize16(motor5_speed);
+
+serialize16(motor5_accel);
+
+tailSerialReply();
+
+
+
+if (START_Moto_5 ==true){
+
+cmdMSP = MSP_POSITION_M_5;
+
+headSerialReply(4);
+
+serialize32(position_motor5_1);
+
+tailSerialReply();}
+/////////////////////////////MOTOR 6//////////////////
+
+data_motor_6 = (cw_m6&0x01+ccw_m6&0x02);
+
+
+
+cmdMSP = MSP_COMMAND_6;
+
+headSerialReply(5);
+
+serialize8(data_moto6);
+
+serialize16(motor6_speed);
+
+serialize16(motor6_accel);
+
+tailSerialReply();
+
+
+
+if (START_Moto_6 ==true){
+
+cmdMSP = MSP_POSITION_M_6;
+
+headSerialReply(4);
+
+serialize32(position_motor6_1);
+
+tailSerialReply();}
+/////////////////////////////MOTOR 7//////////////////
+
+data_motor_7 = (cw_m7&0x01+ccw_m7&0x02);
+
+
+
+cmdMSP = MSP_COMMAND_7;
+
+headSerialReply(5);
+
+serialize8(data_moto7);
+
+serialize16(motor7_speed);
+
+serialize16(motor7_accel);
+
+tailSerialReply();
+
+
+
+if (START_Moto_7 ==true){
+
+cmdMSP = MSP_POSITION_M_7;
+
+headSerialReply(4);
+
+serialize32(position_motor7_1);
+
+tailSerialReply();}
+/////////////////////////////MOTOR 8//////////////////
+
+data_motor_8 = (cw_m8&0x01+ccw_m8&0x02);
+
+
+
+cmdMSP = MSP_COMMAND_8;
+
+headSerialReply(5);
+
+serialize8(data_moto8);
+
+serialize16(motor8_speed);
+
+serialize16(motor8_accel);
+
+tailSerialReply();
+
+
+
+if (START_Moto_8 ==true){
+
+cmdMSP = MSP_POSITION_M_8;
+
+headSerialReply(4);
+
+serialize32(position_motor8_1);
+
+tailSerialReply();}
+
+
+serialEvent();
+}
+
+
+void eeprom()
+
+
+
+{
+
+
+
+
+
+
+
+mm_8bit[0] = ((lr_0&0x01)|(lr_1<<1)|(lr_2<<2)|(lr_3<<3)|(lr_4<<4)|(lr_5<<5)|(lr_6<<6)|(lr_7<<7))&0xFF;
+
+mm_8bit[1] = ((lr_8&0x01)|(lr_9<<1)|(lr_10<<2)|(lr_11<<3)|(lr_12<<4)|(lr_13<<5)|(lr_14<<6)|(lr_15<<7))&0xFF;
+
+if (mm_8bit[0]!= mm_8bit_old_0 ||mm_8bit[1]!= mm_8bit_old_1){
+
+//address_byte = 0;
+
+
+
+
+
+//for(int i= 0;i<2;i++){
+
+//    EEPROM.write(address_byte, mm_8bit[i]);
+
+//    address_byte = address_byte+1;
+
+//}
+
+
+
+//coil_256 =     mm_8bit[0];
+
+
+
+
+
+
+
+EEPROM.write(0,mm_8bit[0]);
+
+
+
+EEPROM.write(1,mm_8bit[1]);
+
+
+
+
+
+mm_8bit_old_0 = mm_8bit[0];
+
+mm_8bit_old_1 = mm_8bit[1];
+
+}
+
+
+
+
+
+/////////////////////////////////////////////////////////////////
+
+if (dm_0!= mm_32bit_old_0 ||dm_1!= mm_32bit_old_1 ||dm_2!= mm_32bit_old_2 ||dm_3!= mm_32bit_old_3||dm_4!= mm_32bit_old_4 )
+
+{
+
+
+
+mm_32bit[0]= dm_0;
+
+mm_32bit[1]= dm_1;
+
+mm_32bit[2]= dm_2;
+
+mm_32bit[3]= dm_3;
+
+mm_32bit[4]= dm_4;
+
+address_word = 20;
+
+for(int i= 0;i<5;i++){
+
+EEPROM.put(address_word, mm_32bit[i]);
+
+address_word= address_word+4; 
+
+}
+
+mm_32bit_old_0 = mm_32bit[0];
+
+mm_32bit_old_1 = mm_32bit[1];
+
+mm_32bit_old_2 = mm_32bit[2];
+
+mm_32bit_old_3 = mm_32bit[3];
+
+mm_32bit_old_4 = mm_32bit[4];
+
+
+
+}
+
+if (dm_5!= mm_32bit_old_5 ||dm_6!= mm_32bit_old_6 ||dm_7!= mm_32bit_old_7 ||dm_8!= mm_32bit_old_8||dm_9!= mm_32bit_old_9 )
+
+{
+
+
+
+mm_32bit[5]= dm_5;
+
+mm_32bit[6]= dm_6;
+
+mm_32bit[7]= dm_7;
+
+mm_32bit[8]= dm_8;
+
+mm_32bit[9]= dm_9;
+
+address_word = 40;
+
+for(int i= 5;i<10;i++){
+
+EEPROM.put(address_word, mm_32bit[i]);
+
+address_word= address_word+4; 
+
+}
+
+
+
+mm_32bit_old_5 = mm_32bit[5];
+
+mm_32bit_old_6 = mm_32bit[6];
+
+mm_32bit_old_7 = mm_32bit[7];
+
+mm_32bit_old_8 = mm_32bit[8];
+
+mm_32bit_old_9 = mm_32bit[9];
+
+
+
+}
+
+if (dm_10!= mm_32bit_old_10||dm_11!= mm_32bit_old_11 ||dm_12!= mm_32bit_old_12 ||dm_13!= mm_32bit_old_13||dm_14!= mm_32bit_old_14 )
+
+{
+
+
+
+mm_32bit[10]= dm_10;
+
+mm_32bit[11]= dm_11;
+
+mm_32bit[12]= dm_12;
+
+mm_32bit[13]= dm_13;
+
+mm_32bit[14]= dm_14;
+
+address_word = 60;
+
+for(int i= 10;i<15;i++){
+
+EEPROM.put(address_word, mm_32bit[i]);
+
+address_word= address_word+4; 
+
+}
+
+
+
+mm_32bit_old_10 = mm_32bit[10];
+
+mm_32bit_old_11 = mm_32bit[11];
+
+mm_32bit_old_12 = mm_32bit[12];
+
+mm_32bit_old_13 = mm_32bit[13];
+
+mm_32bit_old_14 = mm_32bit[14];
+
+
+
+}
+
+if (dm_15!= mm_32bit_old_15 ||dm_16!= mm_32bit_old_16 ||dm_17!= mm_32bit_old_17 ||dm_18!= mm_32bit_old_18||dm_19!= mm_32bit_old_19 )
+
+{
+
+
+
+mm_32bit[15]= dm_15;
+
+mm_32bit[16]= dm_16;
+
+mm_32bit[17]= dm_17;
+
+mm_32bit[18]= dm_18;
+
+mm_32bit[19]= dm_19;
+
+address_word = 80;
+
+for(int i= 15;i<20;i++){
+
+EEPROM.put(address_word, mm_32bit[i]);
+
+address_word= address_word+4; 
+
+}
+
+
+
+mm_32bit_old_15 = mm_32bit[15];
+
+mm_32bit_old_16 = mm_32bit[16];
+
+mm_32bit_old_17 = mm_32bit[17];
+
+mm_32bit_old_18 = mm_32bit[18];
+
+mm_32bit_old_19 = mm_32bit[19];
+
+
+
+}
+
+
+
+//////////////////////////////////////////////////////////////////
+
+
+
+if (one_pulse0 == 0){
+
+for(int i= 0;i<2;i++){
+
+   value_8bit[i] = EEPROM.read(i);
+
+}
+
+
+
+mm_8bit[0] = value_8bit[0];
+
+
+
+mm_8bit[1] = value_8bit[1];
+
+
+
+
+
+lr_0 =   mm_8bit[0]&0x01;
+
+lr_1 =  (mm_8bit[0]>>1)&0x01;
+
+lr_2 =  (mm_8bit[0]>>2)&0x01;
+
+lr_3 =  (mm_8bit[0]>>3)&0x01;
+
+lr_4 =  (mm_8bit[0]>>4)&0x01;
+
+lr_5 =  (mm_8bit[0]>>5)&0x01;
+
+lr_6 =  (mm_8bit[0]>>6)&0x01;
+
+lr_7 =  (mm_8bit[0]>>7)&0x01;
+
+lr_8 =   mm_8bit[1]&0x01;
+
+lr_9 =  (mm_8bit[1]>>1)&0x01;
+
+lr_10 = (mm_8bit[1]>>2)&0x01;
+
+lr_11 = (mm_8bit[1]>>3)&0x01;
+
+lr_12 = (mm_8bit[1]>>4)&0x01;
+
+lr_13 = (mm_8bit[1]>>5)&0x01;
+
+lr_14 = (mm_8bit[1]>>6)&0x01;
+
+lr_15 = (mm_8bit[1]>>7)&0x01;
+
+
+
+
+
+
+
+//coil_256 = mm_8bit[0];
+
+one_pulse0 =1;
+
+}
+
+
+
+
+
+if (one_pulse1 == 0){
+
+address_word = 20;
+
+for(int i= 0;i<20;i++){
+
+    EEPROM.get(address_word , value_32bit[i]);
+
+    address_word= address_word+4; 
+
+}
+
+dm_0 = value_32bit[0];
+
+dm_1 = value_32bit[1];
+
+dm_2 = value_32bit[2];
+
+dm_3 = value_32bit[3];
+
+dm_4 = value_32bit[4];
+
+dm_5 = value_32bit[5];
+
+dm_6 = value_32bit[6];
+
+dm_7 = value_32bit[7];
+
+dm_8 = value_32bit[8];
+
+dm_9 = value_32bit[9];
+
+dm_10 = value_32bit[10];
+
+dm_11 = value_32bit[11];
+
+dm_12 = value_32bit[12];
+
+dm_13 = value_32bit[13];
+
+dm_14 = value_32bit[14];
+
+dm_15 = value_32bit[15];
+
+dm_16 = value_32bit[16];
+
+dm_17 = value_32bit[17];
+
+dm_18 = value_32bit[18];
+
+dm_19 = value_32bit[19];
+
+
+
+one_pulse1 =1;
+
+}
+
+
+
+//  for (int i = 0 ; i < EEPROM.length() ; i++) {
+
+//    EEPROM.write(i, 0);
+
+//  }
+
+
+
+//if (addr == EEPROM.length()) {
+
+//    addr = 0;
+
+//  }
+
+
+
+}
+]]></xhtml:p>
+  </sketch>
+</CFile>
